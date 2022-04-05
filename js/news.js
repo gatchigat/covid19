@@ -33,9 +33,11 @@ let newsDesc4 = "wewewewewewewewewweww wewewewewewee";
 let newsTitle5 = "News Title 5";
 let newsDate5 = "April 12, 2022 &middot; 6 min read";
 let newsDesc5 = "gagagagagag gagawggagwa gagwgawgawg e";
-let newsTitle6 = "News Title 6";
-let newsDate6 = "March 23, 2022 &middot; 8 min read";
-let newsDesc6 = "wagwageryreh ryreyeryeryrey eryeryeryeryere";
+let newsTitle6 = "What to know about the history of coronaviruses";
+let newsImgSrc6 = "./images/news/news6.jpg";
+let newsDate6 = "March 23, 2022 &middot; 10 min read";
+let newsDesc6 =
+  "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.";
 
 function newsPage1() {
   // NEWS1
@@ -80,14 +82,15 @@ function newsPage2() {
   document.getElementsByClassName("news-desc-5")[0].innerHTML = newsDesc5;
   // NEWS6
   document.getElementsByClassName("news-title-6")[0].innerHTML = newsTitle6;
+  document.getElementsByClassName("news-img-6")[0].src = newsImgSrc6;
   document.getElementsByClassName("author-6")[0].innerHTML = salin;
   document.getElementsByClassName("author-profile-6")[0].src = salinProfilePic;
   document.getElementsByClassName("author-profile-6")[0].style.width = "40px";
   document.getElementsByClassName("news-date-6")[0].innerHTML = newsDate6;
   document.getElementsByClassName("news-desc-6")[0].innerHTML = newsDesc6;
 
-  document.getElementsByClassName("awit")[0].innerHTML = "Go Back";
-  document.getElementsByClassName("awit")[0].href = "news-index.html";
+  // document.getElementsByClassName("awit")[0].innerHTML = "Go Back";
+  // document.getElementsByClassName("awit")[0].href = "news-index.html";
 }
 function newsLoad1() {
   document.getElementsByClassName("news-title-1")[0].innerHTML = newsTitle1;
@@ -105,7 +108,16 @@ function newsLoad2() {
   document.getElementsByClassName("news-img-2")[0].src = newsImgSrc2;
   // document.getElementsByClassName("news-img-1")[0].style.width = "80%";
   document.getElementsByClassName("author-profile-2")[0].style.width = "40px";
-  document.getElementsByClassName("news-date-2")[0].innerHTML = newsDate1;
+  document.getElementsByClassName("news-date-2")[0].innerHTML = newsDate2;
+}
+function newsLoad6() {
+  document.getElementsByClassName("news-title-6")[0].innerHTML = newsTitle6;
+  document.getElementsByClassName("author-6")[0].innerHTML = salin;
+  document.getElementsByClassName("author-profile-6")[0].src = salinProfilePic;
+  document.getElementsByClassName("news-img-6")[0].src = newsImgSrc6;
+  // document.getElementsByClassName("news-img-1")[0].style.width = "80%";
+  document.getElementsByClassName("author-profile-6")[0].style.width = "40px";
+  document.getElementsByClassName("news-date-6")[0].innerHTML = newsDate6;
 }
 function aboutLoad() {
   document.getElementsByClassName("author-1")[0].innerHTML = gatchi;
