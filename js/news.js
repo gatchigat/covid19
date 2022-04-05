@@ -37,7 +37,7 @@ let newsTitle6 = "What to know about the history of coronaviruses";
 let newsImgSrc6 = "./images/news/news6.jpg";
 let newsDate6 = "March 23, 2022 &middot; 10 min read";
 let newsDesc6 =
-  "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.";
+  "Coronavirus disease &lpar;COVID-19&rpar; is an infectious disease caused by the SARS-CoV-2 virus.";
 
 function newsPage1() {
   // NEWS1
