@@ -21,7 +21,7 @@ let newsDesc1 =
   "we keep close watch on discussions surrounding the emergency approval of vaccines for kids aged at least 6 months";
 let newsTitle2 = "Life during lockdown";
 let newsImgSrc2 = "./images/news/news2.jpg";
-let newsDate2 = "May 21, 2022 &middot; 8 min read";
+let newsDate2 = "May 21, 2022 &middot; 3 min read";
 let newsDesc2 =
   "The continuously increasing number of COVID-19 cases in the world The government implemented a total lockdown that lasted for several months.";
 let newsTitle3 = "News Title 3";
