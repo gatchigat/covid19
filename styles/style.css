@@ -352,6 +352,9 @@ main {
 }
 
 /* ABOUT PAGE */
+#about .instructor-img {
+  /* max-height: 500px; */
+}
 #about-members .author-profile-1,
 #about-members .author-profile-2,
 #about-members .author-profile-3,
@@ -470,6 +473,6 @@ main {
   #about-members .author-profile-2,
   #about-members .author-profile-3,
   #about-members .author-profile-4 {
-    max-width: 250px;
+    /* max-width: 200px; */
   }
 }
