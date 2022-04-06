@@ -279,6 +279,9 @@ main {
 #news-index .news-img-1 {
   height: 250px;
 }
+#news-index .news-img-3 {
+  height: 250px;
+}
 /* FOOTER */
 #footer {
   font-family: "Open Sans", sans-serif;
@@ -349,6 +352,15 @@ main {
 }
 
 /* ABOUT PAGE */
+#about-members .author-profile-1,
+#about-members .author-profile-2,
+#about-members .author-profile-3,
+#about-members .author-profile-4 {
+  /* max-width: 95%; */
+}
+#about-members .author-profile-1 {
+  /* width: 10%; */
+}
 #about-body {
   background: #f5d9d5;
   font-family: "Nunito", sans-serif;
@@ -453,5 +465,11 @@ main {
 
   #contact {
     margin-top: 100px;
+  }
+  #about-members .author-profile-1,
+  #about-members .author-profile-2,
+  #about-members .author-profile-3,
+  #about-members .author-profile-4 {
+    max-width: 250px;
   }
 }
