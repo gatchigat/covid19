@@ -7,7 +7,7 @@ let cayari = "Aaron Cayari";
 let tomoro = "Maricel Tomoro";
 
 // PROFILE PIC SRC
-let gatchiProfilePic = "./images/gatchiProfile1.jpg";
+let gatchiProfilePic = "./images/gatchiProfile.jpg";
 let salinProfilePic = "./images/salinProfile6.jpg";
 let tomoroProfilePic = "./images/tomoroProfile.png";
 let cayariProfilePic = "./images/cayariProfile2.png";
