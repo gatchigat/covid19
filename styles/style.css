@@ -225,6 +225,9 @@ main {
   width: 300px;
   height: auto;
 }
+#mid .img-2 {
+  max-height: 707px;
+}
 #gallery {
   padding: 3% 7% 2%;
   display: flex;
