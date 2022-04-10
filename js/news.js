@@ -1,19 +1,31 @@
-// ON LOAD
-// NEWS INDEX
-// AUTHORS
+let webName = "C19 Prevention Guild";
+let cic = "College of the Immaculate Conception";
+let city = "Cabanatuan City";
+// MEMBERS
 let gatchi = "Gary Andrew Gatchalian";
 let salin = "Michelle Salin";
 let cayari = "Aaron Cayari";
 let tomoro = "Maricel Tomoro";
+let sanPedro = "Ashley San Pedro";
 
-// PROFILE PIC SRC
+// MEMBERS PROFILE PIC SRC
 let gatchiProfilePic = "./images/gatchiProfile.jpg";
 let salinProfilePic = "./images/salinProfile6.jpg";
 let tomoroProfilePic = "./images/tomoroProfile.png";
 let cayariProfilePic = "./images/cayariProfile2.png";
+let sanPedroProfilePic = "./images/sanPedroProfile6.png";
 
-// NEWS TITLES/DATES/ARTICLE DESC
-let newsTitle1 = "The latest on little kids’ vaccines";
+// FUNCTIONS
+// ON LOAD
+function title() {
+  document.getElementsByClassName("webName")[0].innerHTML = webName;
+  document.getElementsByClassName("webName")[1].innerHTML = webName;
+  document.getElementsByClassName("cic")[0].innerHTML = cic;
+  document.getElementsByClassName("city")[0].innerHTML = city;
+}
+
+// NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
+let newsTitle1 = "The latest on little kids' vaccines";
 let newsImgSrc1 =
   "https://www.rappler.com/tachyon/2021/12/united-states-washington-covid-19-moderna-vaccine-january-23-2021-reuters-scaled.jpg?resize=2560%2C1813&zoom=1";
 let newsDate1 = "May 23, 2022 &middot; 6 min read";
@@ -47,6 +59,7 @@ let newsDate6 = "March 23, 2022 &middot; 10 min read";
 let newsDesc6 =
   "Coronavirus disease &lpar;COVID-19&rpar; is an infectious disease caused by the SARS-CoV-2 virus.";
 
+//ON LOAD NEWS INDEX
 function newsPage1() {
   // NEWS1
   document.getElementsByClassName("news-title-1")[0].innerHTML = newsTitle1;
@@ -103,6 +116,8 @@ function newsPage2() {
   // document.getElementsByClassName("awit")[0].innerHTML = "Go Back";
   // document.getElementsByClassName("awit")[0].href = "news-index.html";
 }
+
+// ON LOAD PER ARTICLE
 function newsLoad1() {
   document.getElementsByClassName("news-title-1")[0].innerHTML = newsTitle1;
   document.getElementsByClassName("author-1")[0].innerHTML = gatchi;
@@ -157,6 +172,8 @@ function newsLoad6() {
   document.getElementsByClassName("author-profile-6")[0].style.width = "40px";
   document.getElementsByClassName("news-date-6")[0].innerHTML = newsDate6;
 }
+
+// ON LOAD ABOUT PAGE
 function aboutLoad() {
   document.getElementsByClassName("author-1")[0].innerHTML = gatchi;
   document.getElementsByClassName("author-profile-1")[0].src = gatchiProfilePic;
@@ -165,10 +182,12 @@ function aboutLoad() {
   document.getElementsByClassName("author-2")[0].innerHTML = salin;
   document.getElementsByClassName("author-profile-2")[0].src = salinProfilePic;
   document.getElementsByClassName("author-profile-2")[0].style.height = "225px";
-  document.getElementsByClassName("author-3")[0].innerHTML = tomoro;
-  document.getElementsByClassName("author-profile-3")[0].src = tomoroProfilePic;
+  document.getElementsByClassName("author-3")[0].innerHTML = sanPedro;
+  document.getElementsByClassName("author-profile-3")[0].src =
+    sanPedroProfilePic;
   document.getElementsByClassName("author-profile-3")[0].style.height = "225px";
-  document.getElementsByClassName("author-4")[0].innerHTML = cayari;
-  document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
-  document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
+  document.getElementsByClassName("cic")[1].innerHTML = cic;
+  // document.getElementsByClassName("author-4")[0].innerHTML = cayari;
+  // document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
+  // document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
 }

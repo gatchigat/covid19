@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Covid 19 Title | About</title>
+    <title>C19 Prevention Guild | About</title>
     <!-- *Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Oxygen&family=Raleway&family=Roboto:ital@1&family=Ubuntu:wght@300;400&display=swap"
         rel="stylesheet">
-    rel="stylesheet">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Amita&family=Bad+Script&family=Calligraffitti&family=Caveat&family=Clicker+Script&family=Courgette&family=Covered+By+Your+Grace&family=Damion&family=Dancing+Script&family=Delius&family=Gloria+Hallelujah&family=Gochi+Hand&family=Great+Vibes&family=Kalam&family=Merienda&family=Merriweather&family=Montserrat&family=Nothing+You+Could+Do&family=Open+Sans&family=Oswald&family=Oxygen&family=Pangolin&family=Patrick+Hand&family=Redressed&family=Roboto&family=Sacramento&family=Satisfy&family=Shadows+Into+Light&family=Stalemate&family=Tillana&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
@@ -28,14 +28,14 @@
     <script src="https://kit.fontawesome.com/50451a9c34.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="d-flex flex-column" onload="aboutLoad()">
+<body class="d-flex flex-column" onload="aboutLoad();title();">
     <!-- Navigation-->
     <section id="nav" class="nav-sub">
 
 
         <nav id="mainNavBar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top nav-sub">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Covid Title</a>
+                <a class="navbar-brand webName" href="index.html">Covid Title</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -88,9 +88,9 @@
                     <div class="col-lg-6">
                         <h2 class="fw-bolder roboto">Our School</h2>
                         <p class="lead fw-normal text-white-50 mb-0 raleway"><span
-                                class="text-decoration-none fw-bold"><a class="text-decoration-none fw-bold link-light"
-                                    href="https://cic.edu.ph" target="_blank">College of
-                                    the Immaculate Conception</a></span> is a learning
+                                class="text-decoration-none fw-bold"><a
+                                    class="text-decoration-none fw-bold link-light cic" href="https://cic.edu.ph"
+                                    target="_blank"></a></span> is a learning
                             community of transformed persons that provides research driven programs towards the
                             development of competent,
                             resilient, and evangelizing individuals.</p>
@@ -151,13 +151,13 @@
                             <div class="fst-italic text-muted">Member</div>
                         </div>
                     </div>
-                    <div class="col mb-5">
+                    <!-- <div class="col mb-5">
                         <div class="text-center">
                             <img class="img-fluid rounded-circle mb-4 px-4 author-profile-4" src="" alt="..." />
                             <h5 class="fw-bolder author-4"></h5>
                             <div class="fst-italic text-muted">Member</div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -173,8 +173,8 @@
                             src="https://static.wixstatic.com/media/556956_d2886ec2f9ee4bc8b4c48b68d935c0ed~mv2.png/v1/fill/w_111,h_111,al_c,usm_0.66_1.00_0.01,enc_auto/CIC%20Logo%20FB_01.png"
                             alt="">
                         <div class="text-start col pt-3 px-0 mx-0 ms-1">
-                            <p class="text-start py-0 my-0">College of the Immaculate Conception</p>
-                            <p class="text-start py-0 my-0">Cabanatuan City</p>
+                            <p class="text-start py-0 my-0 cic"></p>
+                            <p class="text-start py-0 my-0 city"></p>
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                     <a href="mailto:06411281@cic.edu.ph"> <i class=" social-icon-others fas fa-envelope "></i></a>
 
 
-                    <p class="text-start py-0 my-0">©Copyright 2022 Covid 19 Title</p>
+                    <p class="text-start py-0 my-0">©Copyright 2022 <span class="webName"></span></p>
                     <p class="text-start py-0 my-0">Group 2 ITW E2</p>
 
                 </div>
