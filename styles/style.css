@@ -431,8 +431,11 @@ main {
     font-family: "Montserrat-Light", serif;
     font-size: 1rem;
   }
+  header{
+    height: 120vh;
+  }
   header div .f-text {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   #mid {
     font-size: 22px;
