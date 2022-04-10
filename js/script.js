@@ -51,3 +51,35 @@ function unloadConfirm() {
     return "You turned me on.";
   };
 }
+$(document).ready(function () {
+  $('[data-toggle="popover"]').popover({
+    //trigger: 'focus',
+    trigger: "hover",
+    html: true,
+    content: function () {
+      return (
+        '<img class="h-100 w-100 d-block " src="' + $(this).data("img") + '" />'
+      );
+    },
+    title: "Toolbox",
+  });
+});
+function quelaVid() {
+  var vid = document.getElementById("quelaVid");
+  document.getElementsByTagName("video")[0].volume = 0.2;
+  vid.volume = 0.2;
+  vid.autoplay = true;
+  // vid.load();
+}
+function quelaVidStop() {
+  var vid = document.getElementById("quelaVid");
+  document.getElementsByTagName("video")[0].volume = 0.2;
+  vid.pause();
+  vid.currentTime = 0;
+}
+$(function () {
+  $('[data-bs-toggle="modal"]').hover(function () {
+    var modalId = $(this).data("target");
+    $(modalId).modal("show");
+  });
+});

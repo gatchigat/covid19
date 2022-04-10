@@ -87,22 +87,54 @@
                             alt="..." /></div>
                     <div class="col-lg-6">
                         <h2 class="fw-bolder roboto">Our School</h2>
-                        <p class="lead fw-normal text-white-50 mb-0 raleway"><span
-                                class="text-decoration-none fw-bold"><a
-                                    class="text-decoration-none fw-bold link-light cic" href="https://cic.edu.ph"
-                                    target="_blank"></a></span> is a learning
+                        <p class="lead fw-normal text-white-50 mb-0 raleway"><span class="text-decoration-none fw-bold"
+                                d><a class="text-decoration-none fw-bold link-light cic" href="https://cic.edu.ph"
+                                    target="_blank" data-bs-toggle="modal" data-bs-target="#cicModal"></a></span> is a
+                            learning
                             community of transformed persons that provides research driven programs towards the
                             development of competent,
                             resilient, and evangelizing individuals.</p>
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="cicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">College of the Immaculate Conception</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body px-5">
+                            <div class="row gx-0">
+                                <div class="col-6">
+                                    <img class="w-100"
+                                        src="https://static.wixstatic.com/media/556956_d2886ec2f9ee4bc8b4c48b68d935c0ed~mv2.png/v1/fill/w_111,h_111,al_c,usm_0.66_1.00_0.01,enc_auto/CIC%20Logo%20FB_01.png"
+                                        alt="">
+                                </div>
+
+                                <div class="col-6 w-50 pt-5">
+                                    <h3 class="raleway text-black">College of the Immaculate Conception</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.facebook.com/CIC.Cabanatuan/"> <button type="button"
+                                    class="btn btn-primary">Facebook</button></a>
+                            <a href="https://cic.edu.ph"> <button type="button"
+                                    class="btn btn-danger">Website</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- About section two-->
-        <section class="py-5">
+        <section class="py-5" class="instructor">
             <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-4 order-first order-lg-last h-50 mw-100 p-3 my-0 me-0 ms-auto text-end"><img
+                    <div class="col-lg-5 order-first order-lg-last h-50 mw-100 p-3 my-0 me-0 ms-auto text-end"><img
                             class="img-fluid rounded mb-5 mb-lg-0 h-25 p-3 instructor-img text-lg-end "
                             src="./images/quelaProfile.png" alt="..." />
                     </div>
@@ -112,12 +144,41 @@
                         <h2 class="fw-bolder montserrat">Our instructor</h2>
                         <p class="lead fw-normal text-muted mb-0 raleway"><span class="text-decoration-none fw-bold"><a
                                     class="text-decoration-none fw-bold link-dark"
-                                    href="https://www.facebook.com/racquel.amparado" target="_blank">Raquel
+                                    href="https://www.facebook.com/racquel.amparado" data-bs-toggle="modal"
+                                    data-bs-target="#quelaBelzModal" onclick="quelaVid()">Raquel
                                     Amparado</a></span> is an IT instructor of College of the Immaculate Conception's
                             Department of Management Accountancy,
                             Technology and
 
                             Entrepreneurial Studies.</p>
+                        <!-- MODAL -->
+                        <div class="modal fade" id="quelaBelzModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Quela Belz</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video id="quelaVid" width="400" height="600" controls autoplay"
+                                            class="w-100 quelaVid">
+                                            <source src="./videos/vidTik.mp4" type="video/mp4">
+                                            <source src="movie.ogg" type="video/ogg">
+
+                                        </video>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                            onclick="quelaVidStop()">Close</button>
+
+                                        <a href="https://www.facebook.com/racquel.amparado"><button type="button"
+                                                class="btn btn-primary">Facebook</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

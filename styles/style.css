@@ -361,6 +361,9 @@ main {
 }
 
 /* ABOUT PAGE */
+#about .instructor video{
+  volume
+}
 #about .instructor-img {
   /* max-height: 500px; */
 }
