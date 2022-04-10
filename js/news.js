@@ -1,3 +1,5 @@
+//
+// VAR DECLARATIONS
 let webName = "C19 Prevention Guild";
 let cic = "College of the Immaculate Conception";
 let city = "Cabanatuan City";
@@ -15,6 +17,52 @@ let tomoroProfilePic = "./images/tomoroProfile.png";
 let cayariProfilePic = "./images/cayariProfile2.png";
 let sanPedroProfilePic = "./images/sanPedroProfile6.png";
 
+// NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
+// ARTICLE1
+let newsTitle1 = "The latest on little kids' vaccines";
+let newsImgSrc1 =
+  "https://www.rappler.com/tachyon/2021/12/united-states-washington-covid-19-moderna-vaccine-january-23-2021-reuters-scaled.jpg?resize=2560%2C1813&zoom=1";
+let newsDate1 = "May 23, 2022 &middot; 6 min read";
+let newsDesc1 =
+  "we keep close watch on discussions surrounding the emergency approval of vaccines for kids aged at least 6 months";
+
+// ARTICLE2
+let newsTitle2 = "Life during lockdown";
+let newsImgSrc2 = "./images/news/news2.jpg";
+let newsDate2 = "May 21, 2022 &middot; 3 min read";
+let newsDesc2 =
+  "The continuously increasing number of COVID-19 cases in the world The government implemented a total lockdown that lasted for several months.";
+
+// ARTICLE3
+let newsTitle3 =
+  "Over 17K schools nominated for resumption of face-to-face classes —DepEd ";
+let newsDate3 = "May 15, 2022 &middot; 2 min read";
+let newsImgSrc3 = "./images/news/news3.jpg";
+let newsDesc3 =
+  "The Department of Education (DepEd) on Monday reported that 17,479 public and private schools have been nominated to conduct face-to-face classes. ";
+
+// ARTICLE4
+let newsTitle4 = "The Effects of COVID19 Vaccines";
+let newsImgSrc4 = "./images/news/news4.jpg";
+let newsDate4 = "April 25, 2022 &middot; 4 min read";
+let newsDesc4 =
+  "Immune protection in COVID-19 infection can be conceptualized as a spectrum wherein sterile immunity is at the end of positive spectrum.";
+
+// ARTICLE5
+let newsTitle5 =
+  "DOH seeks FDA approval for 4th dose of vaccines for elderly, immunocompromised";
+let newsImgSrc5 = "./images/news/news5.jpg";
+let newsDate5 = "April 12, 2022 &middot; 6 min read";
+let newsDesc5 =
+  "Health Undersecretary Maria Rosario Vergeire says administration of the fourth dose of the vaccines had already been approved by the country's Vaccine Expert Panel for the said vulnerable groups";
+
+//ARTICLE6
+let newsTitle6 = "What to know about the history of coronaviruses";
+let newsImgSrc6 = "./images/news/news6.jpg";
+let newsDate6 = "March 23, 2022 &middot; 10 min read";
+let newsDesc6 =
+  "Coronavirus disease &lpar;COVID-19&rpar; is an infectious disease caused by the SARS-CoV-2 virus.";
+
 // FUNCTIONS
 // ON LOAD
 function title() {
@@ -23,41 +71,6 @@ function title() {
   document.getElementsByClassName("cic")[0].innerHTML = cic;
   document.getElementsByClassName("city")[0].innerHTML = city;
 }
-
-// NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
-let newsTitle1 = "The latest on little kids' vaccines";
-let newsImgSrc1 =
-  "https://www.rappler.com/tachyon/2021/12/united-states-washington-covid-19-moderna-vaccine-january-23-2021-reuters-scaled.jpg?resize=2560%2C1813&zoom=1";
-let newsDate1 = "May 23, 2022 &middot; 6 min read";
-let newsDesc1 =
-  "we keep close watch on discussions surrounding the emergency approval of vaccines for kids aged at least 6 months";
-let newsTitle2 = "Life during lockdown";
-let newsImgSrc2 = "./images/news/news2.jpg";
-let newsDate2 = "May 21, 2022 &middot; 3 min read";
-let newsDesc2 =
-  "The continuously increasing number of COVID-19 cases in the world The government implemented a total lockdown that lasted for several months.";
-let newsTitle3 =
-  "Over 17K schools nominated for resumption of face-to-face classes —DepEd ";
-let newsDate3 = "May 15, 2022 &middot; 2 min read";
-let newsImgSrc3 = "./images/news/news3.jpg";
-let newsDesc3 =
-  "The Department of Education (DepEd) on Monday reported that 17,479 public and private schools have been nominated to conduct face-to-face classes. ";
-let newsTitle4 = "The Effects of COVID19 Vaccines";
-let newsImgSrc4 = "./images/news/news4.jpg";
-let newsDate4 = "April 25, 2022 &middot; 4 min read";
-let newsDesc4 =
-  "Immune protection in COVID-19 infection can be conceptualized as a spectrum wherein sterile immunity is at the end of positive spectrum.";
-let newsTitle5 =
-  "DOH seeks FDA approval for 4th dose of vaccines for elderly, immunocompromised";
-let newsImgSrc5 = "./images/news/news5.jpg";
-let newsDate5 = "April 12, 2022 &middot; 6 min read";
-let newsDesc5 =
-  "Health Undersecretary Maria Rosario Vergeire says administration of the fourth dose of the vaccines had already been approved by the country's Vaccine Expert Panel for the said vulnerable groups";
-let newsTitle6 = "What to know about the history of coronaviruses";
-let newsImgSrc6 = "./images/news/news6.jpg";
-let newsDate6 = "March 23, 2022 &middot; 10 min read";
-let newsDesc6 =
-  "Coronavirus disease &lpar;COVID-19&rpar; is an infectious disease caused by the SARS-CoV-2 virus.";
 
 //ON LOAD NEWS INDEX
 function newsPage1() {
