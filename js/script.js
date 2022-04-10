@@ -19,3 +19,35 @@ $(".navbar-collapse").on("shown.bs.collapse", function () {
 $(".navbar-collapse").on("hidden.bs.collapse", function () {
   $(".navbar-collapse  >.collapse.m-0").removeClass("mt-3 mb-3");
 });
+function onBeforeUnload(e) {
+  if (thereAreUnsavedChanges()) {
+    e.preventDefault();
+    e.returnValue = "wakoko";
+    return;
+  }
+
+  delete e["returnValue"];
+}
+
+window.addEventListener("beforeunload", onBeforeUnload);
+// window.onbeforeunload = function (e) {
+//   e = e || window.event;
+//   alertString = "Awit wakokohaha";
+//   // For IE and Firefox prior to version 4
+//   if (e) {
+//     e.returnValue = "wrawrawrwar";
+//   }
+
+//   // For Safari
+//   return "wrwarawraw";
+// };
+
+function unloadConfirm() {
+  window.onbeforeunload = function (e) {
+    var e = e || window.event;
+    if (e) {
+      e.returnValue = "You turned me on.";
+    }
+    return "You turned me on.";
+  };
+}

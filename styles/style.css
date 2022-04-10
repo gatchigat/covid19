@@ -91,6 +91,12 @@
 .open-sans {
   font-family: "Open Sans", sans-ser;
 }
+.flex-25 {
+  flex: 25%;
+}
+.mw-25 {
+  max-width: 25%;
+}
 #nav .navbar-brand,
 #nav .navbar-brand a {
   letter-spacing: 2px;
@@ -235,9 +241,9 @@ main {
   justify-content: center;
 }
 .gallery img {
-  width: 350px;
+  /* width: 350px;
   height: 200px;
-  margin: 10px;
+  margin: 10px; */
   transition: all 1s;
 }
 .gallery img:hover {
@@ -408,6 +414,20 @@ main {
 }
 
 @media only screen and (max-width: 500px) {
+  #nav .navbar-brand,
+  #nav .navbar-brand a {
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-shadow: 1px 3px 2px #3d3d3d;
+    transition: color 0.5s, text-shadow 0.2s;
+    color: #a42a9c;
+  }
+  .nav-link {
+    font-family: "Montserrat-Light", serif;
+    font-size: 1rem;
+  }
   header div .f-text {
     margin-top: 100px;
   }
@@ -434,6 +454,10 @@ main {
   #gallery .white-section .pb-5 {
     padding: 0;
     margin: 0;
+  }
+  #gallery .flex-25 {
+    max-width: 100%;
+    flex: 100%;
   }
   #gallery,
   .white-section,
